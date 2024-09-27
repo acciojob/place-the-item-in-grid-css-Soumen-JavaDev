@@ -1,13 +1,10 @@
 
 /* Your CSS Code here. */
 .holder{
-	border:1px solid yellow;
-	height:800px;
-	width:800px;
-	display:grid;
-	grid-row:1/2;
 	
+	
+	display:grid;
+	grid-auto-columns:100px 100px;
+	grid-template-rows:100px 100px;
 }
-.item{
-	border:1px solid red;
-}
+
